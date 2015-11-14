@@ -1,0 +1,96 @@
+.game{
+    font-family: "Bello Script";
+    background-color: yellow;
+    background-image: url(game.jpg);
+}
+
+.stone-win{
+    display: none;
+}
+.stone-win-active{
+    display: block;
+    margin: auto;
+
+}
+.paper-tie{
+	display: none;
+}
+
+.scissors-lose{
+   display: none;
+}
+
+.scissors-lose-active{
+    display: block;
+    margin: auto;
+}
+
+.stone-tie{
+	display: none;
+}
+
+.paper-lose{
+	display: none;
+}
+
+.scissors-win{
+	display: none;
+}
+
+.stone-lose{
+	display: none;
+}
+
+.paper-win{
+	display: none;
+}
+
+.scissors-tie{
+	display: none;
+}
+
+.paper:hover{
+	color: green;
+}
+.paper-right{
+	display: none;
+}
+
+.paper-left{
+	display: none;
+}
+
+.stone-left{
+	display: none;
+}
+
+.scissors-left{
+	display: none;
+}
+
+.scissors-right{
+	display: none;
+}
+.stone-right{
+	display: none;
+}
+.img-container{
+	margin-top: 30px;
+}
+.img-div-you{
+	margin-left: 70px; 
+}
+.img-div-computer{
+	margin-left: 30px;
+}
+
+.stone:hover{
+	color:red;
+}
+.scissors:hover{
+	color: purple;
+}
+
+.newgame{
+	margin-top: 120px;
+}
